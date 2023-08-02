@@ -1,4 +1,4 @@
-// Follow this steps
+## Follow this steps ##
 1) git clone 'URL'
 2) cd 'project_name'
 3) npm install
