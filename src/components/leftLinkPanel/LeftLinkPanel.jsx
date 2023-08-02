@@ -60,7 +60,6 @@ const DataTreeView = ({ treeItems, addNode, linkData }) => {
   return (
     <TreeView
       sx={{ overflow: "auto", padding: "0px 10px" }}
-      
       defaultCollapseIcon={<ExpandMoreIcon sx={{ width: "0.8em" }} />}
       defaultExpandIcon={<ChevronRightIcon sx={{ width: "0.8em" }} />}
     >

@@ -14,7 +14,10 @@ const MainContainer = () => {
         showSidebar={showSidebar}
         handleHideSideBar={handleHideSideBar}
       />
-      <RightContentPanel />
+      <RightContentPanel
+        handleHideSideBar={handleHideSideBar}
+        showSidebar={showSidebar}
+      />
     </MainWrapper>
   );
 };

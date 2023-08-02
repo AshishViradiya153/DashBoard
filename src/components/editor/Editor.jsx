@@ -6,21 +6,26 @@ import {
   EditorWrapper,
   Subtitles,
 } from "./Editor.styles";
+import Menu from "../menu/Menu";
+import { MenuData } from "../../data";
 import AddCircleOutlineIcon from "@mui/icons-material/AddCircleOutline";
 const Editor = () => {
   return (
     <MainContainer>
       <Title>WYSIWYG Editor</Title>
       <EditorWrapper>
-        <Text>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro
-          accusamus eos doloribus numquam odio rem sed aperiam, aliquid pariatur
-          molestias sint. Delectus facere, dolorum earum labore perferendis
-          nostrum pariatur veritatis? Lorem ipsum dolor, sit amet consectetur
-          adipisicing elit. Porro accusamus eos doloribus numquam odio rem sed
-          aperiam, aliquid pariatur molestias sint. Delectus facere, dolorum
-          earum labore perferendis nostrum pariatur veritatis?
-        </Text>
+        <div>
+          <Menu menus={MenuData} />
+          <Text>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro
+            accusamus eos doloribus numquam odio rem sed aperiam, aliquid
+            pariatur molestias sint. Delectus facere, dolorum earum labore
+            perferendis nostrum pariatur veritatis? Lorem ipsum dolor, sit amet
+            consectetur adipisicing elit. Porro accusamus eos doloribus numquam
+            odio rem sed aperiam, aliquid pariatur molestias sint. Delectus
+            facere, dolorum earum labore perferendis nostrum pariatur veritatis?
+          </Text>
+        </div>
         <hr />
         <div>
           <Subtitles>Topic Name</Subtitles>

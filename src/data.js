@@ -220,7 +220,7 @@ export const MenuData = [
   },
   {
     id: 3,
-    icon: "< >",
+    icon: "<>",
     name: "wrapper",
   },
   {

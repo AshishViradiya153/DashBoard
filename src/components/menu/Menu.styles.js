@@ -1,8 +1,10 @@
 import { styled } from "styled-components";
 
 const MenuContainer = styled.div`
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
+  align-items: center;
+  width: fit-content;
 `;
 const ArrowWrapper = styled.div`
   display: "flex";
@@ -21,7 +23,7 @@ const Tag = styled.span`
   justify-content: center;
   color: white;
   align-items: center;
-  padding: 1em;
+  padding: 0.6em;
 `;
 const SpanArrow = styled.div`
   display: flex;
