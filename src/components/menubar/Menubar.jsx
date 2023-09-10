@@ -83,7 +83,7 @@ const Menubar = ({
       menuBarRef?.addEventListener("mouseleave", leaveMouseHandler);
     }
     return () => {
-      menuBarRef.removeEventListener("mouseleave", leaveMouseHandler);
+      menuBarRef?.removeEventListener("mouseleave", leaveMouseHandler);
       document.removeEventListener("mousedown", handleOutSideClick);
     };
   }, [setShowMenuBar, showMenuBar]);

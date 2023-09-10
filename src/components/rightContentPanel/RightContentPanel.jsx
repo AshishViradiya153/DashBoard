@@ -3,6 +3,7 @@ import { MainWrapper } from "./RightContentPanel.styles";
 import BreadCrumb from "./../breadCrumb/BreadCrumb.jsx";
 import Editor from "../editor/Editor";
 import KeyboardDoubleArrowRightIcon from "@mui/icons-material/KeyboardDoubleArrowRight";
+import EventManagement from "../eventManagement/EventManagement";
 const RightContentPanel = ({ handleHideSideBar, showSidebar }) => {
   return (
     <MainWrapper>
@@ -14,6 +15,7 @@ const RightContentPanel = ({ handleHideSideBar, showSidebar }) => {
       )}
       <BreadCrumb />
       <Editor />
+      <EventManagement />
     </MainWrapper>
   );
 };
